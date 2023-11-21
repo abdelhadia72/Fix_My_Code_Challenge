@@ -14,8 +14,8 @@ if (process.argv.length <= 2) {
     process.exit(1)
 }
 
-size = parseInt(process.argv[2], 10)
-console.log("Size: " + size)
+size = parseInt(process.argv[2], 16)
+console.log("Size: " + size/2)
 
 for (let i = 0 ; i < size ; i ++) {
     for (let j = 0 ; j < size ; j ++) {
